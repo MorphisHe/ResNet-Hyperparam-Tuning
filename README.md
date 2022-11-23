@@ -18,7 +18,7 @@ In the project, we aim to obtain high test accuracy on CIFAR-10 image classifica
 
 ## Best Model
 ### Number of Parameters: 4,779,530
-### Testset Accuracy: 
+### Testset Accuracy: 92.49
 
 ### Model Architecture:
 - number of residual layers: 4
@@ -83,7 +83,7 @@ To trigger training:
 | Method      | # of parameters | # of epoch    |  Train Accuracy |  Validation Accuracy | Test Accuracy | Folder Name |
 | :----:      |    :----:   |   :----:   |   :----:   |   :----:   |   :----:   |   :----:   |
 | Baseline|2.77M|18|86.58|78.7|78.29|[folder](outputs/baseline/config.py)|
-| Normalization|2.77M|19|87.22|79.20|779.58|[folder](outputs/data_aug/norm/config.py)|
+| Normalization|2.77M|19|87.22|79.20|79.58|[folder](outputs/data_aug/norm/config.py)|
 | Normalization <br> Random Crop|2.77M|16|83.33|79.54|78.32|[folder](outputs/data_aug/norm_crop/config.py)|
 | Normalization <br> Random Crop <br> Random Flip|2.77M|14|82.16|76.38|76.49|[folder](outputs/data_aug/norm_crop_flip/config.py)|
 | Normalization <br> Random Crop <br> Random Flip <br> Random Rotation|2.77M|28|81.64|81.14|80.76|[folder](outputs/data_aug/norm_crop_flip_rotate5/config.py)|
