@@ -1,6 +1,6 @@
 # Deep Learning Mini-Project: Modifying ResNet on Image Classification
 
-## Referece: used https://github.com/kuangliu/pytorch-cifar as reference
+## Reference: used https://github.com/kuangliu/pytorch-cifar as reference
 
 <br>
 
