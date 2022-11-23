@@ -1,0 +1,230 @@
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM conv1.weight                                                           torch.Size([64, 3, 3, 3])      1728                           1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM bn1.weight                                                             torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM bn1.bias                                                               torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM layer1.0.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/20/2022 06:58:57 PM layer1.0.bn1.weight                                                    torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.0.bn1.bias                                                      torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.0.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/20/2022 06:58:57 PM layer1.0.bn2.weight                                                    torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.0.bn2.bias                                                      torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.1.conv1.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/20/2022 06:58:57 PM layer1.1.bn1.weight                                                    torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.1.bn1.bias                                                      torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.1.conv2.weight                                                  torch.Size([64, 64, 3, 3])     36864                          1                             
+11/20/2022 06:58:57 PM layer1.1.bn2.weight                                                    torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM layer1.1.bn2.bias                                                      torch.Size([64])               64                             1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM layer2.0.conv1.weight                                                  torch.Size([128, 64, 3, 3])    73728                          1                             
+11/20/2022 06:58:57 PM layer2.0.bn1.weight                                                    torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.0.bn1.bias                                                      torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.0.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/20/2022 06:58:57 PM layer2.0.bn2.weight                                                    torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.0.bn2.bias                                                      torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.0.shortcut.0.weight                                             torch.Size([128, 64, 1, 1])    8192                           1                             
+11/20/2022 06:58:57 PM layer2.0.shortcut.1.weight                                             torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.0.shortcut.1.bias                                               torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.1.conv1.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/20/2022 06:58:57 PM layer2.1.bn1.weight                                                    torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.1.bn1.bias                                                      torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.1.conv2.weight                                                  torch.Size([128, 128, 3, 3])   147456                         1                             
+11/20/2022 06:58:57 PM layer2.1.bn2.weight                                                    torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM layer2.1.bn2.bias                                                      torch.Size([128])              128                            1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM layer3.0.conv1.weight                                                  torch.Size([256, 128, 3, 3])   294912                         1                             
+11/20/2022 06:58:57 PM layer3.0.bn1.weight                                                    torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.0.bn1.bias                                                      torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.0.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/20/2022 06:58:57 PM layer3.0.bn2.weight                                                    torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.0.bn2.bias                                                      torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.0.shortcut.0.weight                                             torch.Size([256, 128, 1, 1])   32768                          1                             
+11/20/2022 06:58:57 PM layer3.0.shortcut.1.weight                                             torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.0.shortcut.1.bias                                               torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.1.conv1.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/20/2022 06:58:57 PM layer3.1.bn1.weight                                                    torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.1.bn1.bias                                                      torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.1.conv2.weight                                                  torch.Size([256, 256, 3, 3])   589824                         1                             
+11/20/2022 06:58:57 PM layer3.1.bn2.weight                                                    torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM layer3.1.bn2.bias                                                      torch.Size([256])              256                            1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Name                                                                   Weight Shape                   Total Parameters               Trainable                     
+11/20/2022 06:58:57 PM linear.weight                                                          torch.Size([10, 256])          2560                           1                             
+11/20/2022 06:58:57 PM linear.bias                                                            torch.Size([10])               10                             1                             
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:57 PM Total Number of Paramters: 2777674
+11/20/2022 06:58:57 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:58 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:58 PM Training Dataset Size: 45000
+11/20/2022 06:58:58 PM Training Dataset Total Batch#: 352
+11/20/2022 06:58:58 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:58:58 PM Dev Dataset Size: 5000
+11/20/2022 06:58:58 PM Dev Dataset Total Batch#: 20
+11/20/2022 06:58:58 PM Test Dataset Size: 10000
+11/20/2022 06:58:58 PM Test Dataset Total Batch#: 40
+11/20/2022 06:59:02 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:02 PM Trainer Kwargs:
+11/20/2022 06:59:02 PM 
+11/20/2022 06:59:02 PM device                         cuda
+11/20/2022 06:59:02 PM max_epoch                      100
+11/20/2022 06:59:02 PM output_dir                     ../outputs/baseline_norm_crop_flip_rotate5_wd5e-4_bs128_adam
+11/20/2022 06:59:02 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:02 PM Optimizer: Adam
+11/20/2022 06:59:02 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:02 PM Callbacks: EarlyStopping
+11/20/2022 06:59:02 PM 
+11/20/2022 06:59:02 PM save_final_model               True
+11/20/2022 06:59:02 PM patience                       5
+11/20/2022 06:59:02 PM threshold                      0.1
+11/20/2022 06:59:02 PM mode                           max
+11/20/2022 06:59:02 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:06 PM Epoch 0 - iter 34/352 - 10% Avg loss 2.22405
+11/20/2022 06:59:11 PM Epoch 0 - iter 69/352 - 10% Avg loss 1.97759
+11/20/2022 06:59:16 PM Epoch 0 - iter 104/352 - 10% Avg loss 1.87003
+11/20/2022 06:59:20 PM Epoch 0 - iter 139/352 - 10% Avg loss 1.78152
+11/20/2022 06:59:25 PM Epoch 0 - iter 174/352 - 10% Avg loss 1.74384
+11/20/2022 06:59:30 PM Epoch 0 - iter 209/352 - 10% Avg loss 1.68268
+11/20/2022 06:59:34 PM Epoch 0 - iter 244/352 - 10% Avg loss 1.63692
+11/20/2022 06:59:39 PM Epoch 0 - iter 279/352 - 10% Avg loss 1.59677
+11/20/2022 06:59:44 PM Epoch 0 - iter 314/352 - 10% Avg loss 1.59492
+11/20/2022 06:59:48 PM Epoch 0 - iter 349/352 - 10% Avg loss 1.54348
+11/20/2022 06:59:49 PM Epoch #0: Epoch Average Loss 1.76346 - Epoch Acc: 33.59111 - Epoch Training Time: 0.78 min(s)
+11/20/2022 06:59:49 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:50 PM Eval Devset: Epoch #0: Average Loss 0.88552 - Epoch Acc: 32.94000 - Epoch Testing Time: 0.021 min(s)
+11/20/2022 06:59:50 PM Saving new best-model with accuracy: 32.9400
+11/20/2022 06:59:50 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 06:59:55 PM Epoch 1 - iter 34/352 - 10% Avg loss 1.48799
+11/20/2022 06:59:59 PM Epoch 1 - iter 69/352 - 10% Avg loss 1.49173
+11/20/2022 07:00:04 PM Epoch 1 - iter 104/352 - 10% Avg loss 1.44933
+11/20/2022 07:00:09 PM Epoch 1 - iter 139/352 - 10% Avg loss 1.45126
+11/20/2022 07:00:13 PM Epoch 1 - iter 174/352 - 10% Avg loss 1.42446
+11/20/2022 07:00:18 PM Epoch 1 - iter 209/352 - 10% Avg loss 1.41668
+11/20/2022 07:00:23 PM Epoch 1 - iter 244/352 - 10% Avg loss 1.44334
+11/20/2022 07:00:28 PM Epoch 1 - iter 279/352 - 10% Avg loss 1.37836
+11/20/2022 07:00:32 PM Epoch 1 - iter 314/352 - 10% Avg loss 1.35471
+11/20/2022 07:00:37 PM Epoch 1 - iter 349/352 - 10% Avg loss 1.33974
+11/20/2022 07:00:37 PM Epoch #1: Epoch Average Loss 1.42303 - Epoch Acc: 47.62444 - Epoch Training Time: 0.79 min(s)
+11/20/2022 07:00:37 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:00:39 PM Eval Devset: Epoch #1: Average Loss 0.67518 - Epoch Acc: 49.66000 - Epoch Testing Time: 0.02 min(s)
+11/20/2022 07:00:39 PM Saving new best-model with accuracy: 49.6600
+11/20/2022 07:00:39 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:00:43 PM Epoch 2 - iter 34/352 - 10% Avg loss 1.31835
+11/20/2022 07:00:48 PM Epoch 2 - iter 69/352 - 10% Avg loss 1.30858
+11/20/2022 07:00:53 PM Epoch 2 - iter 104/352 - 10% Avg loss 1.30684
+11/20/2022 07:00:58 PM Epoch 2 - iter 139/352 - 10% Avg loss 1.28067
+11/20/2022 07:01:02 PM Epoch 2 - iter 174/352 - 10% Avg loss 1.24664
+11/20/2022 07:01:07 PM Epoch 2 - iter 209/352 - 10% Avg loss 1.26115
+11/20/2022 07:01:12 PM Epoch 2 - iter 244/352 - 10% Avg loss 1.23007
+11/20/2022 07:01:16 PM Epoch 2 - iter 279/352 - 10% Avg loss 1.23350
+11/20/2022 07:01:21 PM Epoch 2 - iter 314/352 - 10% Avg loss 1.26176
+11/20/2022 07:01:26 PM Epoch 2 - iter 349/352 - 10% Avg loss 1.24495
+11/20/2022 07:01:26 PM Epoch #2: Epoch Average Loss 1.26859 - Epoch Acc: 53.82889 - Epoch Training Time: 0.79 min(s)
+11/20/2022 07:01:26 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:01:27 PM Eval Devset: Epoch #2: Average Loss 0.69273 - Epoch Acc: 50.08000 - Epoch Testing Time: 0.021 min(s)
+11/20/2022 07:01:27 PM Saving new best-model with accuracy: 50.0800
+11/20/2022 07:01:27 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:01:32 PM Epoch 3 - iter 34/352 - 10% Avg loss 1.21439
+11/20/2022 07:01:37 PM Epoch 3 - iter 69/352 - 10% Avg loss 1.18880
+11/20/2022 07:01:42 PM Epoch 3 - iter 104/352 - 10% Avg loss 1.20190
+11/20/2022 07:01:46 PM Epoch 3 - iter 139/352 - 10% Avg loss 1.17464
+11/20/2022 07:01:51 PM Epoch 3 - iter 174/352 - 10% Avg loss 1.15202
+11/20/2022 07:01:56 PM Epoch 3 - iter 209/352 - 10% Avg loss 1.13991
+11/20/2022 07:02:01 PM Epoch 3 - iter 244/352 - 10% Avg loss 1.13118
+11/20/2022 07:02:05 PM Epoch 3 - iter 279/352 - 10% Avg loss 1.17975
+11/20/2022 07:02:10 PM Epoch 3 - iter 314/352 - 10% Avg loss 1.16180
+11/20/2022 07:02:15 PM Epoch 3 - iter 349/352 - 10% Avg loss 1.13479
+11/20/2022 07:02:15 PM Epoch #3: Epoch Average Loss 1.16762 - Epoch Acc: 57.91556 - Epoch Training Time: 0.79 min(s)
+11/20/2022 07:02:15 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:02:16 PM Eval Devset: Epoch #3: Average Loss 0.55663 - Epoch Acc: 60.54000 - Epoch Testing Time: 0.02 min(s)
+11/20/2022 07:02:16 PM Saving new best-model with accuracy: 60.5400
+11/20/2022 07:02:16 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:02:21 PM Epoch 4 - iter 34/352 - 10% Avg loss 1.10664
+11/20/2022 07:02:26 PM Epoch 4 - iter 69/352 - 10% Avg loss 1.10218
+11/20/2022 07:02:30 PM Epoch 4 - iter 104/352 - 10% Avg loss 1.12945
+11/20/2022 07:02:35 PM Epoch 4 - iter 139/352 - 10% Avg loss 1.13941
+11/20/2022 07:02:40 PM Epoch 4 - iter 174/352 - 10% Avg loss 1.09744
+11/20/2022 07:02:45 PM Epoch 4 - iter 209/352 - 10% Avg loss 1.11241
+11/20/2022 07:02:49 PM Epoch 4 - iter 244/352 - 10% Avg loss 1.13809
+11/20/2022 07:02:54 PM Epoch 4 - iter 279/352 - 10% Avg loss 1.09874
+11/20/2022 07:02:59 PM Epoch 4 - iter 314/352 - 10% Avg loss 1.11739
+11/20/2022 07:03:04 PM Epoch 4 - iter 349/352 - 10% Avg loss 1.13428
+11/20/2022 07:03:04 PM Epoch #4: Epoch Average Loss 1.11725 - Epoch Acc: 59.76889 - Epoch Training Time: 0.8 min(s)
+11/20/2022 07:03:04 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:03:05 PM Eval Devset: Epoch #4: Average Loss 0.60389 - Epoch Acc: 58.60000 - Epoch Testing Time: 0.02 min(s)
+11/20/2022 07:03:05 PM 
+11/20/2022 07:03:05 PM Bad Epoch. Total num bad epoch: 1
+11/20/2022 07:03:05 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:03:10 PM Epoch 5 - iter 34/352 - 10% Avg loss 1.09804
+11/20/2022 07:03:15 PM Epoch 5 - iter 69/352 - 10% Avg loss 1.09333
+11/20/2022 07:03:19 PM Epoch 5 - iter 104/352 - 10% Avg loss 1.13659
+11/20/2022 07:03:24 PM Epoch 5 - iter 139/352 - 10% Avg loss 1.05735
+11/20/2022 07:03:29 PM Epoch 5 - iter 174/352 - 10% Avg loss 1.08503
+11/20/2022 07:03:34 PM Epoch 5 - iter 209/352 - 10% Avg loss 1.05166
+11/20/2022 07:03:38 PM Epoch 5 - iter 244/352 - 10% Avg loss 1.05082
+11/20/2022 07:03:43 PM Epoch 5 - iter 279/352 - 10% Avg loss 1.06229
+11/20/2022 07:03:48 PM Epoch 5 - iter 314/352 - 10% Avg loss 1.06884
+11/20/2022 07:03:53 PM Epoch 5 - iter 349/352 - 10% Avg loss 1.06555
+11/20/2022 07:03:53 PM Epoch #5: Epoch Average Loss 1.07663 - Epoch Acc: 61.34667 - Epoch Training Time: 0.8 min(s)
+11/20/2022 07:03:53 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:03:54 PM Eval Devset: Epoch #5: Average Loss 0.64211 - Epoch Acc: 59.00000 - Epoch Testing Time: 0.022 min(s)
+11/20/2022 07:03:54 PM 
+11/20/2022 07:03:54 PM Bad Epoch. Total num bad epoch: 2
+11/20/2022 07:03:54 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:03:59 PM Epoch 6 - iter 34/352 - 10% Avg loss 1.02497
+11/20/2022 07:04:04 PM Epoch 6 - iter 69/352 - 10% Avg loss 1.06024
+11/20/2022 07:04:08 PM Epoch 6 - iter 104/352 - 10% Avg loss 1.06179
+11/20/2022 07:04:13 PM Epoch 6 - iter 139/352 - 10% Avg loss 1.05080
+11/20/2022 07:04:18 PM Epoch 6 - iter 174/352 - 10% Avg loss 1.03611
+11/20/2022 07:04:23 PM Epoch 6 - iter 209/352 - 10% Avg loss 1.06035
+11/20/2022 07:04:28 PM Epoch 6 - iter 244/352 - 10% Avg loss 1.04296
+11/20/2022 07:04:32 PM Epoch 6 - iter 279/352 - 10% Avg loss 1.06125
+11/20/2022 07:04:37 PM Epoch 6 - iter 314/352 - 10% Avg loss 1.07092
+11/20/2022 07:04:42 PM Epoch 6 - iter 349/352 - 10% Avg loss 1.04322
+11/20/2022 07:04:42 PM Epoch #6: Epoch Average Loss 1.05068 - Epoch Acc: 62.35111 - Epoch Training Time: 0.8 min(s)
+11/20/2022 07:04:42 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:04:43 PM Eval Devset: Epoch #6: Average Loss 0.86606 - Epoch Acc: 46.70000 - Epoch Testing Time: 0.021 min(s)
+11/20/2022 07:04:43 PM 
+11/20/2022 07:04:43 PM Bad Epoch. Total num bad epoch: 3
+11/20/2022 07:04:43 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:04:48 PM Epoch 7 - iter 34/352 - 10% Avg loss 1.01900
+11/20/2022 07:04:53 PM Epoch 7 - iter 69/352 - 10% Avg loss 1.02025
+11/20/2022 07:04:57 PM Epoch 7 - iter 104/352 - 10% Avg loss 1.02509
+11/20/2022 07:05:02 PM Epoch 7 - iter 139/352 - 10% Avg loss 1.04416
+11/20/2022 07:05:07 PM Epoch 7 - iter 174/352 - 10% Avg loss 1.01195
+11/20/2022 07:05:12 PM Epoch 7 - iter 209/352 - 10% Avg loss 1.02268
+11/20/2022 07:05:16 PM Epoch 7 - iter 244/352 - 10% Avg loss 1.01586
+11/20/2022 07:05:21 PM Epoch 7 - iter 279/352 - 10% Avg loss 1.00800
+11/20/2022 07:05:26 PM Epoch 7 - iter 314/352 - 10% Avg loss 1.00294
+11/20/2022 07:05:31 PM Epoch 7 - iter 349/352 - 10% Avg loss 1.03098
+11/20/2022 07:05:31 PM Epoch #7: Epoch Average Loss 1.02034 - Epoch Acc: 63.68889 - Epoch Training Time: 0.79 min(s)
+11/20/2022 07:05:31 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:05:32 PM Eval Devset: Epoch #7: Average Loss 0.63413 - Epoch Acc: 57.54000 - Epoch Testing Time: 0.02 min(s)
+11/20/2022 07:05:32 PM 
+11/20/2022 07:05:32 PM Bad Epoch. Total num bad epoch: 4
+11/20/2022 07:05:32 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:05:37 PM Epoch 8 - iter 34/352 - 10% Avg loss 1.05524
+11/20/2022 07:05:42 PM Epoch 8 - iter 69/352 - 10% Avg loss 0.97968
+11/20/2022 07:05:46 PM Epoch 8 - iter 104/352 - 10% Avg loss 1.00018
+11/20/2022 07:05:51 PM Epoch 8 - iter 139/352 - 10% Avg loss 1.03552
+11/20/2022 07:05:56 PM Epoch 8 - iter 174/352 - 10% Avg loss 0.96149
+11/20/2022 07:06:00 PM Epoch 8 - iter 209/352 - 10% Avg loss 0.99664
+11/20/2022 07:06:05 PM Epoch 8 - iter 244/352 - 10% Avg loss 1.02451
+11/20/2022 07:06:10 PM Epoch 8 - iter 279/352 - 10% Avg loss 0.96997
+11/20/2022 07:06:15 PM Epoch 8 - iter 314/352 - 10% Avg loss 1.00222
+11/20/2022 07:06:19 PM Epoch 8 - iter 349/352 - 10% Avg loss 1.00808
+11/20/2022 07:06:20 PM Epoch #8: Epoch Average Loss 1.00308 - Epoch Acc: 64.22222 - Epoch Training Time: 0.79 min(s)
+11/20/2022 07:06:20 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:06:21 PM Eval Devset: Epoch #8: Average Loss 0.81490 - Epoch Acc: 52.36000 - Epoch Testing Time: 0.02 min(s)
+11/20/2022 07:06:21 PM 
+11/20/2022 07:06:21 PM Bad Epoch. Total num bad epoch: 5
+11/20/2022 07:06:21 PM ----------------------------------------------------------------------------------------------------
+11/20/2022 07:06:21 PM Exiting from training early. Best model score: 60.5400. Saving final model: True 
+11/20/2022 07:06:21 PM Saving model ...
+11/20/2022 07:06:21 PM Done.
+11/20/2022 07:06:23 PM Test Devset: Epoch #8: Average Loss 1.15337 - Epoch Acc: 58.64000 - Epoch Testing Time: 0.044 min(s)
